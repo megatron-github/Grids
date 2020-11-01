@@ -2,6 +2,7 @@
 An introduction to writing a program that employs multiple functions.
 
 The program will take input of a grid, which is represented as a list of lists, such as: 
+
 3 4 3 9  
 8 6 9 1  
 5 9 4 3  
