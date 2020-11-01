@@ -2,12 +2,6 @@
  *****************************************************************************
    FILE:        grids.py
 
-   AUTHOR:      Truong Pham
-
-   ASSIGNMENT:  Project 5: Grids
-
-   DATE:        09/28/2018
-
    DESCRIPTION: The program is going to ask user to input a grid, a targeted
                 number, and the direction. Then it is going to scan over this
                 given squared grid of number and locate the targeted number 
@@ -17,14 +11,20 @@
                 targeted number turned into zero. Then, this program is going 
                 to add all the numbers in the given direction from the 
                 targeted number.
+                
+                Here is another sample interaction with the program.
+                3 4 3 0
+                8 6 0 1
+                5 0 4 3
+                1 8 7 2
+                (0, 3)
+                (1, 2)
+                (2, 1)
+                12
+                            
  *****************************************************************************
 """
-
-from professors import input_data
-
-# Complete these functions.  Don't change the headers (def line:
-# function names and parameters) or the docstrings. The program is
-# already designed to use these.
+from input_handling import input_data
 
 def locate_target(grid, target):
     """ Return a list of the locations (tuples) of target within grid. """
