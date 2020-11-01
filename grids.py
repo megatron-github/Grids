@@ -53,9 +53,8 @@ def is_in_bounds(grid, loc_tuple):
     row_loc = loc_tuple[0]
     col_loc = loc_tuple[1]
     
-    # Cite: Denzel Capella and Lucas Steele (Rigatoni)(Barusek)
-    # Description: Stating that if (row_loc, col_loc) are smaller than zero
-    # or bigger than grid_size, then (row_loc, col_loc) is outside of grid
+    # If (row_loc, col_loc) are smaller than zero or bigger than 
+    # grid_size, then (row_loc, col_loc) is outside of grid
     if row_loc < 0 or row_loc >= grid_size or \
        col_loc < 0 or col_loc >= grid_size:
         return False
@@ -66,7 +65,6 @@ def sum_all_neighbors(grid, location_list, direction):
         given direction, if it exists.  Return the sum of all such 
         neighbors. """
 
-    # If you're smart, you make use of this:
     # Coordinate of all given direction
     directions = [(-1, 0), (-1, 1), (0, 1), (1, 1),
                   (1, 0), (1, -1), (0, -1), (-1, -1)]
