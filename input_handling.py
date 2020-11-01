@@ -1,9 +1,6 @@
-""" Professor-provided function for handling input """
-
 def input_data():
     """ Read a square grid of single-digit numbers, then
-        Read a target and a direction.  Return all three.  Provided 
-        by Professors.  Do not modify. """
+        Read a target and a direction. Return all three."""
 
     first = [int(x) for x in input().split()]
     grid = [first]
