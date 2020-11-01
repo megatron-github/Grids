@@ -111,11 +111,7 @@ def print_zero_grid(grid, location_list):
     # For-loop print out all the numbers in the grid without the bracket
     # and with the space at the end of the quotation marks
     for lst in new_grid:
-        print(("{} "* len(new_grid)).format(*lst))
-
-#######################################
-#    DO NOT MODIFY BELOW THIS POINT   #
-#######################################    
+        print(("{} "* len(new_grid)).format(*lst))   
 
 def main():
     """ The main function. """
