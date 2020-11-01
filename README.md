@@ -17,6 +17,6 @@ All test inputs will be square, having the same number of rows as columns. The e
 As another example, we observe that the neighbor of the 7 in position (3, 2) in direction 6 is 8. The program should accept a square grid, a target, and a direction. 
 
 The program should then output:
-• The same grid with every instance of the search number replaced with 0;
-• The position(s) of these 0s;
-• The sum of all grid entries that neighbored the targets in the given direction
+	• The same grid with every instance of the search number replaced with 0;
+	• The position(s) of these 0s;
+	• The sum of all grid entries that neighbored the targets in the given direction
